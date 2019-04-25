@@ -2,7 +2,7 @@
 
 import sys
 import pickle
-pickle_in = open("grammar","rb")
+pickle_in = open("PCFG","rb")
 grammar = pickle.load(pickle_in)
 
 
